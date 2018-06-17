@@ -4,14 +4,6 @@ title: Developing Mac Homebrew with RubyMine
 date: 2018-02-10T14:30:29+00:00
 author: apjanke
 layout: post
-guid: http://testblog.apjanke.net/index.php/2018/02/10/2018-2-10-developing-mac-homebrew-with-rubymine/
-permalink: /index.php/2018/02/10/2018-2-10-developing-mac-homebrew-with-rubymine/
-restapi_import_id:
-  - 5a8f81c8206bd
-  - 5a8f81c8206bd
-original_post_id:
-  - "85"
-  - "85"
 categories:
   - MacHomebrew
 ---

@@ -4,10 +4,6 @@ title: Go away, mdbstatus!
 date: 2018-02-24T01:16:18+00:00
 author: apjanke
 layout: post
-guid: https://apjanketestblog.wordpress.com/?p=278
-permalink: /index.php/2018/02/24/go-away-mdbstatus/
-timeline_notification:
-  - "1519434983"
 categories:
   - Matlab
 ---
