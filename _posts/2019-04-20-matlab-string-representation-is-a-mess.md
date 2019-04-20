@@ -103,7 +103,7 @@ And don’t believe what `whos` is telling you about their memory usage. It’s 
 
 (BTW, notice how long that `whos` call takes? That’s because of how N-long cellstrs are stored as N+1 mxArrays; Matlab has to crawl through memory and check each of them for their size.)
 
-You can use a "uniquification" trick to de-duplicate the underlying `char` data in your cellstrs. This is nice to use on possibly-low-cardinality column data coming back from an SQL database query, or a CSV file containing addresses with a lot of repeated state and country names, for example.
+You can use a "uniquification" trick to de-duplicate the underlying `char` data in your cellstrs. This is nice to use on possibly-low-cardinality column data coming back from a SQL database query, or a CSV file containing addresses with a lot of repeated state and country names, for example.
 
 ```
 function out = uniquify_trick(strs)
