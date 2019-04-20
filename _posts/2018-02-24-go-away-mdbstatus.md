@@ -6,7 +6,9 @@ author: apjanke
 layout: post
 categories:
   - Matlab
+  - Computers
 ---
+
 Matlab&#8217;s self-hosting nature can sometimes be an inconvenience. Case in point: if you have `dbstop if all error` enabled, and you save a file in the editor, Matlab will usually pull you up short at a breakpoint in `mdbstatus`.
 
 If you find your Matlab editor randomly pulling you up in `mdbstatus` for no good reason, this might be what&#8217;s happening.
