@@ -29,7 +29,7 @@ dbclear <span class="s1">if</span> <span class="s1">all</span> <span class="s1">
 
 That will locally disable `dbstop if all error` while `mdbstatus` is doing its `try/catch` work.
 
-There&#8217;s nothing special about the `RAII` variable. It&#8217;s just a local `struct` to hold cleanup functions that will be called when the stack unwinds; <a href="https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization" target="_blank" rel="noopener">RAII</a> is my conventional variable name for that. (Though it&#8217;s probably really &#8220;SBRM&#8221;.)
+There&#8217;s nothing special about the `RAII` variable. It&#8217;s just a local `struct` to hold cleanup functions that will be called when the stack unwinds; <a href="https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization" target="_blank" rel="noopener">RAII</a> is my conventional variable name for that. (Though it&#8217;s probably really better called &#8220;SBRM&#8221;.)
 
 Since you&#8217;re hacking an internal Matlab function, I&#8217;d recommend making a prominent note of it. Stick this big old comment banner at the top of your new `mdbstatus.m` so it&#8217;s apparent what&#8217;s going on.
 
