@@ -11,7 +11,7 @@ Matlab&#8217;s self-hosting nature can sometimes be an inconvenience. Case in po
 
 If you find your Matlab editor randomly pulling you up in `mdbstatus` for no good reason, this might be what&#8217;s happening.
 
-This happens because `mdsbstatus` is called automatically by Matlab, and in `mdbstatus`, in its local function `localGetFileBreakpoints`, it uses a `try`/`catch` for detecting the debugger status of a given file. And its `catch` regularly gets hit during normal usage. Unfortunate design.
+This happens because `mdbstatus` is called automatically by Matlab, and in `mdbstatus`, in its local function `localGetFileBreakpoints`, it uses a `try`/`catch` for detecting the debugger status of a given file. And its `catch` regularly gets hit during normal usage. Unfortunate design.
 
 Luckily, `mdbstatus` is implemented in M-code, and not as a builtin, so we can hack around it. Here&#8217;s a hack to fix it:
 
