@@ -11,7 +11,7 @@ categories:
 
 For historical reasons, string representation in Matlab data structures is something of a mess. The situation is looking up now, with the introduction of the `string` class and its double-quoted string literals in R2017a, but it's still messy because of back-compatibility baggage. This post lays out the situation as I see it. The purpose of this post isn't to complain or rag on MathWorks; it’s to share what I understand of the sitation with other people so they can be more effective Matlab programmers, and maybe better programming language designers.
 
-I sympathize with MathWorks engineers’ situation here: the new `string` class is the right way to do strings. But back-compatibility considerations tie their hands considerably.
+I sympathize with the MathWorks engineers’ situation here: the new `string` class is the right way to do strings. But back-compatibility considerations tie their hands considerably.
 
 ## Terminology
 
@@ -63,6 +63,8 @@ The main problem with charvecs and cellstrs is that they don't fit in with Matla
 And they don’t support the relational operations that most Matlab types do. `==`, `<`, and `>` don’t work at all for cellstrs. And for charvecs, they operate on the individual `char` elements instead of the entire string. So you can’t compare chars or cellstrs using `==` and friends; instead you have to use the special `strcmp`. And you can’t concatenate single charvec strings with `[...]` to produce an array of strings. This means you can’t use polymorphic code to write functions that could accept either strings or numbers; you have to write special-case code for string inputs.
 
 A cellstr is not a distinct Matlab type: it is actually a `cell` that contains charvecs in each of its elements. This means there’s nothing to prevent you from assigning or concatenating something besides a charvec into one of the cells, silently making the array no longer a valid cellstr. And to test whether an array is a cellstr, like `iscellstr()` does, it can’t just look at the type of the array; it has to go through and check the type and size of each cell’s contents. That introduces some overhead.
+
+Charvecs also have a weird discontinuity at the empty string case: In general, a charvec represents an N-character-long string as a 1-by-N `char` array. Except for empty strings, which are usually represented by a 0-by-0 array instead of a 1-by-0 array.
 
 ## What’s wrong with 2-D char arrays?
 
