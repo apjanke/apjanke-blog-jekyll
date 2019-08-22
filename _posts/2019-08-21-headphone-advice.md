@@ -202,6 +202,8 @@ I owned one before, sold it off when I was cleaning up my desktop, and missed it
 
 ## Auditioning
 
+"Auditioning" is the process of listening to audio gear before deciding whether you want to buy it.
+
 I highly recommend that you assemble your own headphone-audition playlist of music that you like and are familiar with, and use this for trying out any new headphone stuff.
 Don't go with what the dealer has for you.
 
