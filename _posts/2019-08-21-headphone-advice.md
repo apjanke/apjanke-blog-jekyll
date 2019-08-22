@@ -10,8 +10,8 @@ categories:
 
 # Headphone Advice
 
-So, you want to get in to headphones? Well, I can help!
-
+So, you want to get in to headphones?
+Well, I can help! 
 Listening to music on headphones has been one of my hobbies for a couple decades now.
 Here's the advice I have for newcomers.
 
