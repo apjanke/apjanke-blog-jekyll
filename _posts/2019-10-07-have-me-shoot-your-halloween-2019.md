@@ -14,11 +14,11 @@ I‘m playing photographer this Halloween and am looking for more parties and ev
 
 [Here‘s a portfolio](https://www.flickr.com/photos/andrewjanke/albums/72157711206485411) of my Halloween & dress-up party work.
 
-Note: I‘m just an amateur. I am not a professional photographer, or an adequate substitute for one. If you need professional photo services for your event, you need to hire a real professional photographer.
+**Note:** I‘m just an amateur. I am not a professional photographer, or an adequate substitute for one. If you need professional photo services for your event, you need to hire a real professional photographer.
 
 I‘m available Friday October 25 through Sunday October 27, and maybe on Thursday October 31 (Halloween itself). I‘m Brooklyn based, and can make it to most anywhere in Manhattan and Brooklyn, and parts of Queens that aren't too far out.
 
-Terms:
+### Terms
 
 * Free, no charge.
 * I get free admission and free drinks.
