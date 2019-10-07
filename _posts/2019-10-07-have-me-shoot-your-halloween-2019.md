@@ -8,8 +8,6 @@ categories:
   - Photography
 ---
 
-# Have me shoot your 2019 Halloween party
-
 I‘m playing photographer this Halloween and am looking for more parties and events to shoot. Do you have a Halloween party or event in NYC you want photographed (for FREE)?
 
 [Here‘s a portfolio](https://www.flickr.com/photos/andrewjanke/albums/72157711206485411) of my Halloween & dress-up party work.
