@@ -1,7 +1,7 @@
 ---
 id: 281
 title: Have me shoot your Halloween party 2019
-date: 2019-10-07T16:40:19-05:00
+date: 2019-10-07T16:40:19-04:00
 author: apjanke
 layout: post
 categories:
