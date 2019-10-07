@@ -12,7 +12,7 @@ categories:
 
 I‘m playing photographer this Halloween and am looking for more parties and events to shoot. Do you have a Halloween party or event in NYC you want photographed (for FREE)?
 
-[Here‘s a portfolio](https://www.flickr.com/photos/andrewjanke/albums/72157711206485411) of my Halloween & dress-up party work: 
+[Here‘s a portfolio](https://www.flickr.com/photos/andrewjanke/albums/72157711206485411) of my Halloween & dress-up party work.
 
 Note: I‘m just an amateur. I am not a professional photographer, or an adequate substitute for one. If you need professional photo services for your event, you need to hire a real professional photographer.
 
@@ -35,3 +35,10 @@ If you're running an "adult" event you want photographed, then:
 * The event organizer also needs to discuss with me ahead of time which areas & activities are in-bounds and out-of-bounds for photos, and is responsible for communicating the photo policy to attendees.
 * I‘ll only photograph the PG-13 or R portions of the party. No NC-17 activity goes on film.
 * You must have controls in place to ensure there are no minors at the event.
+
+
+##  My portfolio
+
+[See my full portfolio on Flickr.](https://www.flickr.com/photos/andrewjanke/albums/72157711206485411)
+
+![My Halloween portfolio as of 2018](/assets/halloween-portfolio-composite.png)
