@@ -6,6 +6,11 @@ author: apjanke
 layout: post
 categories:
   - Computers
+tags:
+  - Linux
+  - Ubuntu
+  - ZNC
+  - IRC
 ---
 
 ZNC is provided as a package in Ubuntu, so you don't have to install it from source. However, it installs it system-wide, while ZNC usually expects to be running from the home directory of a user (sometimes a `znc` user.) So most of the instructions out on the web for configuring ZNC on Linux won't work in this scenario. Here's how to do it.
