@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Deploys changes to my web server
+
+# This currently doesn't work because my ssh key on appleseed has a passphrase
+# So for now it's just a reminder of what to do.
+
+ssh janke@appleseed.apjanke.net "cd /var/www/blog.apjanke.net/apjanke-blog-jekyll; git pull; bundle install; bundle exec jekyll build"
