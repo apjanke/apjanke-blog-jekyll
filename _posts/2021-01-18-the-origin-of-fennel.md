@@ -44,4 +44,6 @@ Matt Lubchansky made this awesome portrait of Fennel, at my friend Jess Zimmerma
 
 ![Portrait of Fennel the Half-Elven Stoner Ranger](/images/fennel-web.jpg)
 
+![The Eversmoking Bong](/images/eversmoking-bong.jpg)
+
 ([Buy Matt's new book!](https://store.silversprocket.net/products/the-antifa-super-soldier-cookbook-by-matt-lubchansky))
