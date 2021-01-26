@@ -25,7 +25,7 @@ Or, since you know the phone book is sorted alphabetically, you could open it up
 
 Whenever you knock on the door of a house, all its occupants come to the door at once, so you get to talk to all of them at the same time with a single knock. That's "block IO".
 
-Let's say you want to talk to all of Mary Keating, Billy Keating, Sally Keating, Marvin Keating, and Susie Keating. You look them all up in the phone book and see that they all have the same address, so you get to talk to all of them with just one visit to a single house. They all live in the same house, because they're all Keatings. That's how "CLUSTERED" behavior works.
+Let's say you want to talk to all of Mary Keating, Billy Keating, Sally Keating, Marvin Keating, and Susie Keating. You look them all up in the phone book and see that they all have the same address, so you get to talk to all of them with just one visit to a single house. They all live in the same house, because they're all Keatings. That's how "CLUSTERED" tables work.
 
 There's a diner next to your office at the top of the hill. Every time you go in to town to talk to someone, they and their whole household follow you back up the hill and have dinner at the diner. The townspeople are lazy, so they just stay and hang out at the diner until someone else shows up and wants their table. If you've talked to someone recently, and want to talk to them _or anyone else who lives in their house_ again, you can just zip over to the diner instead of going all the way in to town. This is the page cache, or just "cache".
 
