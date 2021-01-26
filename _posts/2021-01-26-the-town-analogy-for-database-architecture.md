@@ -9,7 +9,7 @@ categories:
 
 The other day, I was talking with a colleague about the difference between table scans, index scans, and index seeks, and I came up with this analogy to explain how they work in SQL Server.
 
----------------------------------------------------------------------------------------
+-----------------------------------------------------
 
 A database table is like a town. The people in the town are your data. The houses they live in are disk blocks (or "pages"). The plot of land the town sits on is your disk.
 
@@ -34,3 +34,7 @@ Sometimes you get phone calls from people other towns, asking about the people i
 One day someone from another town calls you up and wants to find out the birthday for "Mary Keating Go Screw Yourself". You look up Mary Keating's name in the phone book, call her up, and say, "Hi, Mary Keating Go Screw Yourself!" Mary takes offense and never talks to you again. You've lost your data. This is a "SQL injection attack".
 
 Let's say you're a serial killer. You come to town, and you chop up all the inhabitants, and you put all the arms in one warehouse, and the legs in another warehouse, and the heads in another, and the torsos in another. Now, if one day you're interested in legs, you can just go to the Leg Warehouse and sort through all the legs, without having to shuffle through all the arms, heads, and torsos that you're not interested in that day. That's a "column store database".
+
+-----------------------------------------------------
+
+Cross-posted to [dev.to](https://dev.to/apjanke/the-town-analogy-for-database-architecture-en8).
