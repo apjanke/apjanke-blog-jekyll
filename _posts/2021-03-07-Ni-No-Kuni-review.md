@@ -1,3 +1,12 @@
+---
+title: "Ni No Kuni Review"
+date: 2021-03-07T09:00:00
+author: apjanke
+layout: post
+categories:
+  - Games
+---
+
 # Ni No Kuni Review
 
 This is a review of "Ni No Kuni: Wrath of the White Witch", a video game for PlayStation and Nintendo Switch. I played the "Remastered" version on PlayStation 4 in March 2021.
